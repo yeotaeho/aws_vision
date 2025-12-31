@@ -1,0 +1,3 @@
+- Default MODEL_ID: stabilityai/sdxl-turbo
+- Cache dir: HF_HOME (or .hf_cache under project)
+- Note: 모델 라이선스/상업 사용 조건은 서비스 적용 전 반드시 확인합니다.

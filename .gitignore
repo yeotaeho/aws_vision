@@ -1,0 +1,59 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+.venv
+
+# Model cache
+app/.hf_cache/
+*.safetensors
+*.bin
+*.pt
+*.pth
+
+# Data files
+*.csv
+*.xls
+*.xlsx
+*.json
+*.pkl
+*.h5
+
+# Images (except source code)
+*.jpg
+*.jpeg
+*.png
+*.gif
+*.bmp
+*.webp
+!app/yolo/*.py
+!app/opencv/*.py
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Environment
+.env
+.env.local
+
+# Build
+build/
+dist/
+*.egg-info/
+
